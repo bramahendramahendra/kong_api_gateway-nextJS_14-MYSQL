@@ -85,3 +85,18 @@ http://localhost:3002/
 ```bash
 npm install mysql2
 ```
+
+## Manipulasi Port
+
+1. install
+```bash
+npm install cross-env --save-dev
+```
+2. sesuaikan kode pada package.json
+```bash
+"scripts": {
+ "dev:3001": "cross-env MESSAGE_ID=\"message id 3001\" next dev -p 3001",
+  "dev:3002": "cross-env MESSAGE_ID=\"message id 3002\" next dev -p 3002"
+  // ... sisanya dari script Anda
+}
+```
