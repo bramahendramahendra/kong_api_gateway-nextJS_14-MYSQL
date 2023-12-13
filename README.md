@@ -1,4 +1,5 @@
 ## Requirement
+
 - Next.js 14.0.4
 
 ## Getting Started
@@ -76,4 +77,11 @@ http://localhost:3001/
 ```
 ```bash
 http://localhost:3002/
+```
+
+## Install MYSQL
+
+1. Install MYSQL
+```bash
+npm install mysql2
 ```
