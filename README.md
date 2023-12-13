@@ -45,8 +45,9 @@ jika menjalankkanyan
 npm run dev
 ```
 url digunakan : 
+```bash
 http://localhost:4000/
-
+```
 
 2. setting menjadi 2 port
 Jika menggunakan 1 port :
@@ -65,7 +66,14 @@ pada script diatas port menjadi 4000.
 jika menjalankkanyan
 ```bash
 npm run dev:3001
+```
+```bash
 npm run dev:3002
 ```
+url digunakan : 
+```bash
 http://localhost:3001/
+```
+```bash
 http://localhost:3002/
+```
